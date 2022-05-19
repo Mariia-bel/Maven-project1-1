@@ -36,6 +36,7 @@ public class BonusServiceTest {
         // производим проверку (сравниваем ожидаемый и фактический):
         assertEquals(expected, actual);
     }
+
     @Test
     void shouldCalculateFornotRegisteredAndUnderLimit() //должен посчитать для незарегистрированного и в лимите
     {
